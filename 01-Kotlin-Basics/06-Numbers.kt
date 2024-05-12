@@ -16,12 +16,6 @@ fun main() {
     val g: Long = -9223372036854775807
     val h: Long = 9223372036854775806
 
-    // Float
-    val i: Float = 45.87F
-
-    // Double
-    val j: Double = 234234.45454
-
 
     // Mencetak Bytes
     println(a)
@@ -38,11 +32,5 @@ fun main() {
     // Long
     println(g)
     println(h)
-
-    // Float
-    println(i)
-
-    // Double
-    println(j)
 
 }
