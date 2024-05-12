@@ -12,6 +12,10 @@ fun main() {
     val e: Int =  -2147483648
     val f: Int = 2147483647
 
+    // Long
+    val g: Long = -9223372036854775807
+    val h: Long = 9223372036854775806
+
     // Mencetak Bytes
     println(a)
     println(b)
@@ -23,4 +27,9 @@ fun main() {
     // Integer
     println(e)
     println(f)
+
+    // Long
+    println(g)
+    println(h)
+
 }
