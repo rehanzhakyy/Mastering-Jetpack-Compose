@@ -17,4 +17,5 @@ fun main() {
 
     // Val cannot be reassigned
     // age = 27, remove (//) to see the error
+
 }
