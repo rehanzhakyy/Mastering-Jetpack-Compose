@@ -10,7 +10,7 @@ fun main() {
     println(a % b)
 
     // Assignment Operators
-    var c = 10
+    var c = 20
     c += 6
     c -= 6
     c /= 6
