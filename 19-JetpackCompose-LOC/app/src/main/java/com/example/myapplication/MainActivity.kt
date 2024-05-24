@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
         setContent {
 //            Greeting("Raihan")
             Button(onClick = { println("Click")}, content = {
-                Text(text = "ini adalah Button")
+                Text(text = "Button")
             })
 //            Icon(painter = painterResource(id = R.drawable.ic_launcher_foreground), contentDescription = "launcher background", tint = Color.Green)
 //            Image(painter = painterResource(id = R.drawable.ic_launcher_foreground), contentDescription = "launcher image")
