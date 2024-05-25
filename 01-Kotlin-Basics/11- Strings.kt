@@ -1,6 +1,6 @@
 fun main() {
     // Initilize String
-    val selamat = "Hello"
+    val selamat = "Hello Guys, How Are you?"
 
     // Initialize String with define the Data Types
     val selamatDatang: String = "Hello Guys"
@@ -27,4 +27,7 @@ fun main() {
     // string function
     println(selamat.uppercase())
     println(selamatDatangBelakangan.lowercase())
+
+    // find string in string
+    println(selamat.indexOf("Guys"))
 }
