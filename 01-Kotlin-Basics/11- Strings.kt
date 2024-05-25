@@ -9,6 +9,9 @@ fun main() {
     val selamatDatangBelakangan: String
     selamatDatangBelakangan = "Hello Guys telat"
 
+    // double quote in string
+    val petikDua = "Raihan Zhaky as \"RZ\""
+
     // Print String
     println(selamat)
 
@@ -30,4 +33,7 @@ fun main() {
 
     // find string in string
     println(selamat.indexOf("Guys"))
+
+    // print double quote
+    println(petikDua)
 }
