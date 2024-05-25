@@ -17,4 +17,7 @@ fun main() {
 
     // Print Empty String
     println(selamatDatangBelakangan)
+
+    // get value by index
+    println(selamat[0])
 }
