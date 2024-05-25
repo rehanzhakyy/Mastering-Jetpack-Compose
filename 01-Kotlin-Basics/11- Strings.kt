@@ -23,4 +23,8 @@ fun main() {
 
     // get the string length
     println(selamat.length)
+
+    // string function
+    println(selamat.uppercase())
+    println(selamatDatangBelakangan.lowercase())
 }
