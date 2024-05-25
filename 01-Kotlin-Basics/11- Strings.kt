@@ -20,4 +20,7 @@ fun main() {
 
     // get value by index
     println(selamat[0])
+
+    // get the string length
+    println(selamat.length)
 }
