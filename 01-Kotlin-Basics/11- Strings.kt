@@ -36,4 +36,10 @@ fun main() {
 
     // print double quote
     println(petikDua)
+
+    // String Concatenation
+    println(selamat + selamatDatang)
+
+    // String Templates
+    println("morning, $selamatDatang")
 }
