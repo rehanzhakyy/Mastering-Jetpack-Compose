@@ -1,7 +1,7 @@
 fun main() {
     // Arithmetic Operators
-    val a = 8
-    val b = 2
+    var a = 8
+    var b = 2
     // Arithmetic Operators Output
     println(a + b)
     println(a - b)
@@ -23,4 +23,15 @@ fun main() {
     val l: Float = 3f
 
     println(k / l)
+
+    // Increment
+    println(a++)
+    println(a)
+
+    // Decrement
+    println(a--)
+    println(a)
+
+
+
 }
