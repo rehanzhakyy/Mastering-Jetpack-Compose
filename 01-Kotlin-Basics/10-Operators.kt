@@ -32,6 +32,19 @@ fun main() {
     println(a--)
     println(a)
 
+    // Pre Increment
+    println(++a)
+
+    // Post Increment
+    println(a++)
+    println(a)
+
+    // Pre Decrement
+    println(--a)
+
+    // Post Decrement
+    println(a--)
+    println(a)
 
 
 }
