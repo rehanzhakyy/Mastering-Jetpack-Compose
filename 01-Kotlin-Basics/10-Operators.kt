@@ -22,6 +22,9 @@ fun main() {
     val k: Float = 7f
     val l: Float = 3f
 
+    // Not Example
+    var kotlinLang = true
+
     println(k / l)
 
     // Increment
@@ -64,5 +67,13 @@ fun main() {
     // <=, Less than or Equal to Operator
     println(a <= b)
 
+    // &&, AND
+    println(a > 4 && a < 12)
+
+    // ||, OR
+    println(a > 12 || a < 9)
+
+    // !, NOT
+    println(!kotlinLang)
 
 }
