@@ -1,5 +1,5 @@
 fun main() {
-    // Initilize String
+    // Initialize String
     val selamat = "Hello Guys, How Are you?"
 
     // Initialize String with define the Data Types
@@ -39,6 +39,9 @@ fun main() {
 
     // String Concatenation
     println(selamat + selamatDatang)
+
+    // String Function Plus
+    println(selamat.plus(selamatDatang))
 
     // String Templates
     println("morning, $selamatDatang")
