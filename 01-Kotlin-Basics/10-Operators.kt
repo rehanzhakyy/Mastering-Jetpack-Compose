@@ -46,5 +46,23 @@ fun main() {
     println(a--)
     println(a)
 
+    // ==, Equal to Operator
+    println(a == b)
+
+    // !=, Not Equal to Operator
+    println(a != b)
+
+    // >, Greater than Operator
+    println(a > b)
+
+    // <, Less than Operator
+    println(a < b)
+
+    // >=, Greather than or Equal to Operator
+    println(a >= b)
+
+    // <=, Less than or Equal to Operator
+    println(a <= b)
+
 
 }
