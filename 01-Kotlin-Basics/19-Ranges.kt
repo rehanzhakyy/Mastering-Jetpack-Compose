@@ -16,4 +16,14 @@ fun main() {
     } else {
         println("It's doesn't Exist")
     }
+
+    // Ranges - Break & Continue
+    for (number in 2 .. 10) {
+        if (number == 5) {
+            continue
+        } else if (number == 7) {
+            break
+        }
+        println(number)
+    }
 }
