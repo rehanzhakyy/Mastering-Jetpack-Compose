@@ -9,7 +9,7 @@ fun main() {
         5 -> "Friday"
         6 -> "Saturday"
         7 -> "Sunday"
-        else -> "There is no Weekday"
+        else -> "there is no weekday"
     }
     println(result)
 }
