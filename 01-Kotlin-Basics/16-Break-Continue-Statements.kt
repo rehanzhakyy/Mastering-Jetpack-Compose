@@ -7,8 +7,6 @@ fun main() {
         if (i == 6) {
             i++
             continue
-        } else if (i == 9) {
-            break
         }
     }
 

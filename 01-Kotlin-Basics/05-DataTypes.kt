@@ -1,3 +1,9 @@
 fun main() {
-    // Semua pengertian tentang Data Types ada di Medium
+    val stringText = """
+        bal blaawa blawfblabf
+        aefouaefaefaefaef
+        ---------------------
+    """.trimIndent()
+
+    println(stringText)
 }
