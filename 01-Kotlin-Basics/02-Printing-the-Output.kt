@@ -1,6 +1,6 @@
 fun main() {
-    println("Hello Guys")
-    println("Hello There")
-    print("Hello Everybody")
-    println(4 + 2)
+    val banyakAngka = 1..5
+    banyakAngka.forEach { value ->
+        println("value is $value!")
+    }
 }
