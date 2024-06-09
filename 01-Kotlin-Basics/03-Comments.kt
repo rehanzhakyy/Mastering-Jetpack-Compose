@@ -1,3 +1,3 @@
 fun main() {
-    val nanya: String? = null
+    // comments
 }
