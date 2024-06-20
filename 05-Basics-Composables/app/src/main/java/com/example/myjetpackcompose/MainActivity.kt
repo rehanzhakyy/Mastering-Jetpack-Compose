@@ -1,5 +1,6 @@
 package com.example.myjetpackcompose
 
+import android.graphics.fonts.FontStyle
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -16,8 +17,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.example.myjetpackcompose.ui.theme.MyJetpackComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -43,19 +50,33 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun BikinContohTeks() {
     // Contoh memanggil text yg udah di set di folder values
-    Text(text = stringResource(id = R.string.welcoming_text),
+    Text(
+        text = stringResource(id = R.string.welcoming_text),
         modifier = Modifier.padding(top = 40.dp),
-        color = Color.Red
+        color = Color.Red,
+        fontSize = 29.sp,
+        fontWeight = FontWeight.Bold,
+        fontFamily = FontFamily.Monospace,
+        letterSpacing = 10.sp,
+        textDecoration = TextDecoration.Underline,
+        textAlign = TextAlign.Center
     )
     // Contoh memanggil text yang langsung di set di editor
-    Text(text = "Welcome to Jetpack Compose",
+    Text(
+        text = "Welcome to Jetpack Compose",
         modifier = Modifier.padding(top = 40.dp),
-        color = Color.Blue)
-    Text(text = "Ini adalah teks ke tiga",
+        color = Color.Blue,
+        fontSize = 25.sp,
+        fontWeight = FontWeight.Medium
+    )
+    Text(
+        text = "Ini adalah teks ke tiga",
         modifier = Modifier.padding(top = 40.dp),
-        color = Color.Green)
+        color = Color.Green,
+        fontSize = 20.sp,
+        fontWeight = FontWeight.SemiBold
+    )
 }
-
 
 
 @Composable
