@@ -1,5 +1,6 @@
 fun main() {
     val infiniteProgram = arrayOf("Web", "Mobile", "Game", "IBM", "Intern")
+    val infiniteMentors = arrayOf("Raihan, Reynaldi, Reza, Rahmad, Nabila")
 
     // Change the value of Arrays
     infiniteProgram[3] = "Red Hat"
@@ -8,7 +9,7 @@ fun main() {
     println(infiniteProgram[1])
 
     // Printing the size of Arrays
-    println(infiniteProgram.size)
+    println(infiniteMentors.size)
 
     // For loop in Array
     for (x in infiniteProgram) {
